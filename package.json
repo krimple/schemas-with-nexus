@@ -1,0 +1,22 @@
+{
+  "name": "schemas-with-nexus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --transpileOnly --respawn src/**.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.8.2",
+    "graphql": "^14.5.0",
+    "nexus": "^0.12.0-beta.6",
+    "ts-node-dev": "^1.0.0-pre.41"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
